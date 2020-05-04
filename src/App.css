@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+div, button {
+  margin: 10px;
+}
+
+.Search {
+  margin: '0 auto';
+  max-width: 800;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
